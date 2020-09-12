@@ -56,16 +56,16 @@ class Meal {
     }
   }
 
-  String get coastText {
+  String get costText {
     switch (cost) {
       case Cost.Cheap:
         return 'Acessivel';
       case Cost.Fair:
-        return 'Normal';
+        return 'Justo';
       case Cost.Expensive:
         return 'Caro';
       default:
-        return 'Desconhecida';
+        return 'Desconhecido';
     }
   }
 }
